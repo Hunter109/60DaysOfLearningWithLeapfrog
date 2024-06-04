@@ -1,4 +1,3 @@
-
 // 1.  Day of the Week:
 //      a program that takes a number representing a day of the week(1 for Monday, 2 for Tuesday, etc.) and prints the name of the corresponding day.
 
