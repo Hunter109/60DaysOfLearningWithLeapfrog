@@ -6,3 +6,7 @@ let college = "United Technical College";
 // template literals 
 console.log(`My name is ${name} and I am ${age} years old.`);
 console.log(`Currently, I am pursuing my Bachelor's degree in ${degree} at ${college}.`);
+
+// alert and prompt function 
+alert("Hello World");
+prompt("enter your username ");

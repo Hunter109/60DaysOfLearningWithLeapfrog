@@ -1,5 +1,5 @@
 // ### If - ElseIf - Else Statement:
-// 1. Create a program that checks if a student's exam score is A, B, C, D, or F based on the following grading scale: A (90-100), B (80-89), C (70-79), D (60-69), F (below 60). Print the corresponding grade.
+// 1. x a program that checks if a student's exam score is A, B, C, D, or F based on the following grading scale: A (90-100), B (80-89), C (70-79), D (60-69), F (below 60). Print the corresponding grade.
 
 let score = 60;
 if (score >= 90 && score <= 100) {
