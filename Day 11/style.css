@@ -1,0 +1,17 @@
+.main-banner {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.tested {
+    background-color: aqua;
+    color: red;
+}
+
+.display_block {
+    display: none;
+    background-color: brown;
+    color: greenyellow;
+    border: 2px solid rgb(50, 25, 210);
+}
