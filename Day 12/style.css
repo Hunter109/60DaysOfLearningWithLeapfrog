@@ -1,0 +1,41 @@
+li {
+    list-style-type: decimal;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 47, 50);
+}
+
+h2 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+.nav-links {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.div2 {
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 20px;
+}
+
+.box {
+    height: 10rem;
+    width: 20rem;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+}
