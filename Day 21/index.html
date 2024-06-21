@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating child using parent</title>
+</head>
+
+<body>
+    <div id="box">
+        <p>my name is utsav wagle</p>
+        <p>anonymous hunter</p>
+    </div>
+    <script>
+        let parent = document.querySelector("#box");
+        let child = parent.firstElementChild;
+        console.log(child);
+        let child2 = parent.children[0];
+        console.log(child2);
+    </script>
+</body>
+
+</html>
