@@ -5,7 +5,6 @@
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
 .contact {
     display: flex;
     justify-content: center;
@@ -52,7 +51,6 @@
     align-items: center;
 }
 
-
 .fb-grp button {
     background-color: #15803d;
     border: none;
@@ -63,11 +61,6 @@
     margin: 0 10px;
     cursor: pointer;
 }
-
-
-
-
-
 
 .detail {
     background-color: black;
@@ -86,7 +79,6 @@
     align-items: center;
     justify-items: center;
     margin: 30px 0;
-
 }
 
 .contact-detail a {
@@ -97,15 +89,11 @@
     color: #fff;
 }
 
-
 .social-icon svg {
     margin: 0 25px 25px 0;
-
 }
 
-@media only screen and (max-width:840px) {
-
-
+@media only screen and (max-width: 840px) {
     .contact {
         height: 5rem;
         margin: 20px;
@@ -121,14 +109,11 @@
         text-align: center;
     }
 
-
     .contact-card {
         flex-direction: column;
         width: 90%;
         margin: auto;
-
     }
-
 
     .help {
         display: flex;
@@ -156,16 +141,11 @@
         font-size: 20px;
     }
 
-
     .fb-grp button {
         margin-top: 10px;
     }
 
-
-
-
     .detail {
-
         padding: 25px 25px;
         height: auto;
         border-radius: 0 0 5px 5px;
@@ -173,12 +153,7 @@
         width: 100%;
     }
 
-
     .social-icon svg {
         margin: 0 25px 0 0;
-
     }
-
-
-
 }
