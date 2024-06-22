@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+.affiliateprogram-container {
+    width: 80vw;
+    margin: 5rem auto;
+    box-shadow: 0px 0px 2px 1px #d0c8c8;
+    border-radius: 5px;
+}
+
+.affiliate-program {
+    margin: 10px;
+    padding: 40px;
+}
+
+.affiliate-program h1 {
+    margin: 0 0 40px 0;
+}
+
+.about-affiliate-program p {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-affiliate-program p:first-child {
+    font-weight: 600;
+}
+
+
+.join-affiliate-program {
+    background-color: #FEF9C3;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 50px 0;
+
+}
+
+.join-affiliate-program h3 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.join-affiliate-program .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-affiliate-program h1,
+.join-affiliate-program h5,
+.join-affiliate-program .btn {
+    margin: 40px 0;
+}
+
+.btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    background-color: #15803d;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn button svg {
+    margin: 0 10px;
+}
+
+.join-affiliate-program h5 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.faqs div {
+    padding: 25px 15px;
+    background-color: #FFF7ED;
+    margin: 20px 0;
+}
+
+.faqs div h5 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.faqs div p {
+    line-height: 2;
+}
+
+@media only screen and (max-width:428px) {
+    .affiliateprogram-container {
+        width: 90vw;
+        margin: 3rem auto;
+
+    }
+
+    .affiliate-program {
+        margin: 5px;
+        padding: 20px;
+    }
+
+    .affiliate-program h1 {
+        line-height: 1.5;
+    }
+
+
+    .join-affiliate-program {
+        background-color: #FEF9C3;
+        padding: 25px;
+        margin: 20px 0;
+
+    }
+
+    .join-affiliate-program h3 {
+        font-size: 20px;
+
+    }
+
+
+
+
+
+
+
+
+
+    .join-affiliate-program h5 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .faqs div h5 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .faqs div p {
+        font-size: 12px;
+        line-height: 2.5;
+    }
+}

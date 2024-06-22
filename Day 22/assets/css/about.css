@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.about-us-container {
+    width: 90vw;
+    margin: 20px auto;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-dynoacademy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dynoacademy {
+    margin: 20px;
+}
+
+.about-dynoacademy h3 {
+    font-size: 28px;
+    line-height: 2;
+}
+
+.about-dynoacademy p {
+    line-height: 2;
+}
+
+.final-msg p {
+    margin: 50px 10px;
+    font-weight: 800;
+    line-height: 2;
+}
+
+@media only screen and (max-width:840px) {
+
+
+    .about-dynoacademy {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .about-dynoacademy img {
+        height: 14rem;
+    }
+}
