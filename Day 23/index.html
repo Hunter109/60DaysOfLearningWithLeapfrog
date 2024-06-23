@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEE Marksheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SEE Marksheet</h1>
+        <form id="marksForm">
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks Obtained</th>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td><input type="number" id="math" required></td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td><input type="number" id="science" required></td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td><input type="number" id="english" required></td>
+                </tr>
+                <tr>
+                    <td>Nepali</td>
+                    <td><input type="number" id="nepali" required></td>
+                </tr>
+                <tr>
+                    <td>Social</td>
+                    <td><input type="number" id="social" required></td>
+                </tr>
+            </table>
+            <div class="center">
+                <button type="button" onclick="calculateMarks()">Calculate</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="math.js"></script>
+</body>
+
+</html>
