@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+main {
+    padding: 10rem;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(70, 209, 207, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.over{
+    background-color: white;
+    padding: 5rem;
+}
+.ball ,
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball #one ,
+#two,
+#three,
+#four,
+#five,
+#six{
+padding: 27px;
+border-radius: 50%;
+background-color: rgb(47, 233, 233);
+margin: 10px;
+font-weight: 800;
+}
+
+#noBall,
+#wicket,
+#wide,
+#dotBall{
+    padding: 10px;
+    border-radius: 10%;
+    background-color: red;
+    margin: 10px;
+    font-weight: 800;
+    }
