@@ -42,3 +42,4 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Form submitted with username:", username);
     });
 });
+

@@ -11,36 +11,39 @@ main {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(70, 209, 207, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
-.over{
+
+.over {
     background-color: white;
     padding: 5rem;
 }
-.ball ,
-.extra{
+
+.ball,
+.extra {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ball #one ,
+
+.ball #one,
 #two,
 #three,
 #four,
 #five,
-#six{
-padding: 27px;
-border-radius: 50%;
-background-color: rgb(47, 233, 233);
-margin: 10px;
-font-weight: 800;
+#six {
+    padding: 20px 25px;
+    border-radius: 50%;
+    background-color: rgb(47, 233, 233);
+    margin: 10px;
+    font-weight: 800;
 }
 
 #noBall,
 #wicket,
 #wide,
-#dotBall{
+#dotBall {
     padding: 10px;
     border-radius: 10%;
     background-color: red;
     margin: 10px;
     font-weight: 800;
-    }
+}
