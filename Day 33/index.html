@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <style>
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-green-600 text-white p-4">
+        <h1 class="text-3xl text-center">Dog Adoption Center</h1>
+    </header>
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-around">
+            <a href="#about"
+                class="hover:bg-green-500 hover:text-gray-100 p-2 rounded transition-colors duration-300">About Us</a>
+            <a href="#services"
+                class="hover:bg-green-500 hover:text-gray-100 p-2 rounded transition-colors duration-300">Our Dogs</a>
+            <a href="#contact"
+                class="hover:bg-green-500 hover:text-gray-100 p-2 rounded transition-colors duration-300">Contact</a>
+        </div>
+    </nav>
+    <div class="hero bg-cover bg-center h-96 relative flex items-center justify-center"
+        style="background-image: url('https://www.dogster.com/wp-content/uploads/2024/03/A-happy-Golden-Retriever-adult-male-dog-relaxing-in-a-park_Neelsky_Shutterstock-600x400.jpg'); background-position: top;"
+        data-aos="fade-up">
+        <div class="relative z-10 text-center text-white">
+            <h1 class="text-5xl font-bold">Adopt a Friend for Life</h1>
+            <p class="text-xl mt-4">Find your new best friend at our dog adoption center. Adopt, don't shop!</p>
+        </div>
+    </div>
+    <section id="about"
+        class="container mx-auto p-8 bg-white mt-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+        data-aos="fade-up" data-aos-delay="100">
+        <h2 class="text-3xl font-bold mb-4">About Us</h2>
+        <p>We are dedicated to finding loving homes for abandoned and stray dogs. Our mission is to provide a safe haven
+            for these dogs while we find them a forever home.</p>
+    </section>
+    <section id="services"
+        class="container mx-auto p-8 bg-white mt-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+        data-aos="fade-up" data-aos-delay="200">
+        <h2 class="text-3xl font-bold mb-4">Our Dogs</h2>
+        <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="300">
+                <div
+                    class="bg-gray-100 p-6 rounded-lg shadow-lg text-center hover:shadow-2xl hover:bg-gray-200 transition-all duration-300">
+                    <h3 class="text-xl font-bold mb-2">Meet Our Dogs</h3>
+                    <p>We have a variety of dogs looking for loving homes. Visit us to meet your new furry friend.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="400">
+                <div
+                    class="bg-gray-100 p-6 rounded-lg shadow-lg text-center hover:shadow-2xl hover:bg-gray-200 transition-all duration-300">
+                    <h3 class="text-xl font-bold mb-2">Adoption Process</h3>
+                    <p>Our adoption process is simple and transparent. We ensure each dog finds a perfect match with
+                        their new family.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="500">
+                <div
+                    class="bg-gray-100 p-6 rounded-lg shadow-lg text-center hover:shadow-2xl hover:bg-gray-200 transition-all duration-300">
+                    <h3 class="text-xl font-bold mb-2">Volunteer With Us</h3>
+                    <p>Join our team of volunteers and help us care for and find homes for our dogs. Your support makes
+                        a big difference!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Section for Dogs with Breed and Images -->
+    <section id="dogs"
+        class="container mx-auto p-8 bg-white mt-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+        data-aos="fade-right" data-aos-delay="400">
+        <h2 class="text-3xl font-bold mb-4">Meet Our Dogs</h2>
+        <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8" data-aos="fade-right" data-aos-delay="100">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <img src="https://cdn.britannica.com/82/232782-050-8062ACFA/Black-labrador-retriever-dog.jpg"
+                        alt="Dog 1" class="h-64 w-full object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Bella</h3>
+                    <p class="mt-2">Breed: Labrador Retriever</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8" data-aos="fade-left" data-aos-delay="200">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <img src="https://images.saymedia-content.com/.image/t_share/MTc0OTY4MDgyNjkzOTU3MDYw/breed-types-of-german-shepherds.jpg"
+                        alt="Dog 2" class="h-64 w-full object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Max</h3>
+                    <p class="mt-2">Breed: German Shepherd</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8" data-aos="fade-right" data-aos-delay="300">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <img src="https://i.shgcdn.com/148dc4ae-078b-4962-a7ba-70b75be8df4e/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                        alt="Dog 3" class="h-64 w-full object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Charlie</h3>
+                    <p class="mt-2">Breed: Golden Retriever</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8" data-aos="fade-right" data-aos-delay="400">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bulldog_inglese.jpg/1200px-Bulldog_inglese.jpg"
+                        alt="Dog 4" class="h-64 w-full object-cover rounded-t-lg">
+                    <h3 class="text-xl font-bold mt-4">Lucy</h3>
+                    <p class="mt-2">Breed: Bulldog</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="container mx-auto p-8 bg-green-600 text-white mt-8 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow duration-300"
+        data-aos="fade-up" data-aos-delay="600">
+        <h2 class="text-3xl font-bold mb-4">Ready to Adopt?</h2>
+        <p>Sign up now to start the adoption process and give a loving home to one of our wonderful dogs.</p>
+        <a href="#" class="bg-white text-green-600 px-6 py-3 rounded-lg mt-4 inline-block">Adopt Now</a>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>&copy; 2024 Dog Adoption Center. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
