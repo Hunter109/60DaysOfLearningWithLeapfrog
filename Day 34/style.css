@@ -14,13 +14,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 80%;
-    /* Fixed width */
     max-width: 600px;
-    /* Maximum width */
     height: auto;
-    /* Adjust height as needed */
     margin: auto;
-    /* Center the container horizontally */
 }
 
 h1 {
