@@ -1,0 +1,132 @@
+:root {
+    --bg-color-light: #ffffff;
+    --text-color-light: #000000;
+    --primary-color-light: #008000;
+    --bg-color-dark: #1e1e1e;
+    --text-color-dark: #ffffff;
+    --primary-color-dark: #444444;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color-light);
+    color: var(--text-color-light);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a,
+nav ul li button {
+    text-decoration: none;
+    color: var(--text-color-dark);
+    /* Set content color to white */
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li button {
+    background-color: var(--text-color-light);
+    color: var(--primary-color-light);
+    border-radius: 5px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
+
+.about-section,
+.features-section,
+.footer-section {
+    padding: 2rem;
+}
+
+.features-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features-section ul li {
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-section {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.dark-mode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+.dark-mode header {
+    background-color: var(--primary-color-dark);
+    color: var(--text-color-dark);
+}
+
+.dark-mode button {
+    background-color: var(--text-color-dark);
+    color: var(--primary-color-dark);
+}
+
+.dark-mode .hero-section,
+.dark-mode .footer-section {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+.dark-mode .features-section ul li {
+    background-color: #555;
+}
