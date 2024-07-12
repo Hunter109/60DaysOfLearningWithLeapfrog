@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-
 }
 
 main {
@@ -22,28 +21,30 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.ball #one,
-#two,
-#three,
-#four,
-#five,
-#six {
+.ball-item,
+.extra-item {
     padding: 20px 25px;
     border-radius: 50%;
     background-color: rgb(47, 233, 233);
     margin: 10px;
     font-weight: 800;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-#noBall,
-#wicket,
-#wide,
-#dotBall {
-    padding: 10px;
+.extra-item {
+    padding: 10px 25px;
     border-radius: 10%;
     background-color: red;
-    margin: 10px;
-    font-weight: 800;
+}
+
+.ball-item.active {
+    background-color: green;
+}
+
+.extra-item.active {
+    background-color: yellow;
 }
