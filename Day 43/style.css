@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(to right, #63a4ff, #8360c3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #38a169;
+    margin-bottom: 1rem;
+}
+
+#scoreCard {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a5568;
+    margin-bottom: 1rem;
+}
+
+#scores_div {
+    font-size: 1.25rem;
+    color: #718096;
+    margin-bottom: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    /* border: none; */
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.bg-green {
+    background-color: #38a169;
+}
+
+.bg-blue {
+    background-color: #4299e1;
+}
+
+.bg-yellow {
+    background-color: #ecc94b;
+}
+
+.bg-purple {
+    background-color: #9f7aea;
+}
+
+.bg-red {
+    background-color: #e53e3e;
+}
+
+.bg-gray {
+    background-color: #a0aec0;
+}
+
+.bg-pink {
+    background-color: #ed64a6;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
