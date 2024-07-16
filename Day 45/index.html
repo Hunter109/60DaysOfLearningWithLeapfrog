@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body
+    class="bg-gradient-to-r from-purple-500 to-pink-500 text-white flex flex-col items-center justify-center min-h-screen">
+    <h1 class="text-5xl font-bold mb-12">Rock Paper Scissors</h1>
+    <div id="game" class="flex flex-col items-center bg-white bg-opacity-20 p-10 rounded-xl shadow-lg">
+        <div id="choices" class="flex space-x-8 mb-10">
+            <button id="rock" class="choice bg-gray-700 hover:bg-gray-600 p-6 rounded-full text-6xl relative">
+                ✊
+                <span
+                    class="absolute inset-0 flex items-center justify-center text-sm text-white bg-gray-800 bg-opacity-75 rounded-full cursor-pointer opacity-0 hover:opacity-100">Choose
+                    Rock</span>
+            </button>
+            <button id="paper" class="choice bg-gray-700 hover:bg-gray-600 p-6 rounded-full text-6xl relative">
+                ✋
+                <span
+                    class="absolute inset-0 flex items-center justify-center text-sm text-white bg-gray-800 bg-opacity-75 rounded-full cursor-pointer opacity-0 hover:opacity-100">Choose
+                    Paper</span>
+            </button>
+            <button id="scissors" class="choice bg-gray-700 hover:bg-gray-600 p-6 rounded-full text-6xl relative">
+                ✌
+                <span
+                    class="absolute inset-0 flex items-center justify-center text-sm text-white bg-gray-800 bg-opacity-75 rounded-full cursor-pointer opacity-0 hover:opacity-100">Choose
+                    Scissors</span>
+            </button>
+        </div>
+        <div id="result" class="text-3xl font-semibold mb-6 text-center"></div>
+        <button id="reset" class="bg-red-500 hover:bg-red-400 px-6 py-3 rounded-lg text-2xl font-bold">Play
+            Again</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
