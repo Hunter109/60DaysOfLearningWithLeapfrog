@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.support-container {
+    background-image: url(https://sdtechinc.com/wp-content/uploads/2022/01/contact_us_banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.support-container h1 {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    margin: 50px auto;
+}
+
+.support-container p {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.contact-us {
+    background-image: none;
+}
+
+.contact-us h3 {
+    color: #216e9b;
+
+}
+
+
+.contact-form form div input,
+.contact-form form div textarea {
+    /* background-color: transparent; */
+    border: 2px #216e9b solid;
+    outline: none;
+    color: black;
+    caret-color: black;
+
+}
+
+.contact-form form div input::placeholder,
+.contact-form form div textarea::placeholder {
+    color: black;
+}
+
+.contact-form form input[type="submit"] {
+    background: #216e9b;
+    border: none;
+    color: white;
+}
+
+.contact-form form input[type="submit"]:hover {
+    cursor: pointer;
+    border: #216e9b 2px solid;
+    color: #216e9b;
+}
