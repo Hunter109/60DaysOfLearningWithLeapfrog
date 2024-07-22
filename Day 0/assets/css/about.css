@@ -6,7 +6,7 @@
 }
 
 .about-container {
-    background-image: url(https://sdtechinc.com/wp-content/uploads/2022/01/about-us-banner.jpg);
+    background-image: url(../image/about-us-banner.jpg);
     height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@
 
 
 .solution-container {
-    background-image: url(https://sdtechinc.com/wp-content/uploads/2022/01/zaptech-banner.jpg);
+    background-image: url(../image/zaptech-banner.jpg);
     height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
