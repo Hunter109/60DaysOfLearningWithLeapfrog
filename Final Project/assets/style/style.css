@@ -64,11 +64,7 @@ header {
   color: var(--basic);
 }
 
-.location i,
-.phone i,
-.opening-hours i {
-  /* margin-right: 1px; */
-}
+
 
 .location span,
 .phone span,
@@ -91,15 +87,16 @@ header {
     /* padding: 8px; */
     font-size: 7px;
   }
-  
+
 
 }
+
 @media screen and (max-width: 372px) {
   header {
     /* padding: 8px; */
     font-size: 6px;
   }
-  
+
 
 }
 
@@ -144,8 +141,7 @@ nav .links li a {
 }
 
 nav .links li a:hover,
-nav .links li a.active 
-  {
+nav .links li a.active {
   background: var(--dark);
   color: var(--basic);
 }
@@ -255,11 +251,12 @@ nav .links li a.active
     display: block;
 
   }
+
   .action-btn:hover {
-    scale:none;
+    scale: none;
   }
-  
-  
+
+
 
 }
 
@@ -289,9 +286,10 @@ nav .links li a.active
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
- 
+
 }
-.image-container h1{
+
+.image-container h1 {
   color: #E50914;
 }
 
@@ -318,7 +316,7 @@ nav .links li a.active
 
 
 /* classed and traiing  */
-.training{
+.training {
   background-image: url(../image/xd.jpeg);
   background-position: top center;
   background-size: cover;
@@ -441,7 +439,7 @@ nav .links li a.active
 
 .footer .footer-text a {
   /* color: var(--btn); */
-  color:var(--hover);
+  color: var(--hover);
   /* text-decoration: none; */
 }
 
